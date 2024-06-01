@@ -1,0 +1,11 @@
+Model Information:
+* title:	Grizzbolt Palworld 3D MODEL
+* source:	https://sketchfab.com/3d-models/grizzbolt-palworld-3d-model-09b460ef95274f5d8a6005ebfc67356d
+* author:	JosherYayea (https://sketchfab.com/JosherYayea)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Grizzbolt Palworld 3D MODEL" (https://sketchfab.com/3d-models/grizzbolt-palworld-3d-model-09b460ef95274f5d8a6005ebfc67356d) by JosherYayea (https://sketchfab.com/JosherYayea) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

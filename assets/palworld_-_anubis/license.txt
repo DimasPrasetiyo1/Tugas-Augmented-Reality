@@ -1,0 +1,11 @@
+Model Information:
+* title:	Palworld - Anubis
+* source:	https://sketchfab.com/3d-models/palworld-anubis-2019b055ab8847c59824d7df0af02a11
+* author:	Solyo (https://sketchfab.com/rqaqos)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Palworld - Anubis" (https://sketchfab.com/3d-models/palworld-anubis-2019b055ab8847c59824d7df0af02a11) by Solyo (https://sketchfab.com/rqaqos) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
