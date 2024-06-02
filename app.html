@@ -30,90 +30,90 @@
         device-orientation-permission-ui="enabled: false">
         <a-assets>
             <!-- Card Images -->
-            <img id="buddy-robCard" src="./marker/AR Tracking Card-JPG/buddy-rob.jpg"></img>
-            <img id="gundam_f91Card" src="./marker/AR Tracking Card-JPG/gundam_f91.jpg"></img>
-            <img id="ms_goufCard" src="./marker/AR Tracking Card-JPG/ms_gouf.jpg"></img>
-            <img id="ms-09_domCard" src="./marker/AR Tracking Card-JPG/ms-09_dom.jpg"></img>
-            <img id="robot_toyCard" src="./marker/AR Tracking Card-JPG/robot_toy.jpg"></img>
-            <img id="robot-unicycleCard" src="./marker/AR Tracking Card-JPG/robot-unicycle.jpg"></img>
-            <img id="robotredCard" src="./marker/AR Tracking Card-JPG/robotred.jpg"></img>
-            <img id="robotyellowCard" src="./marker/AR Tracking Card-JPG/robotyellow.jpg"></img>
-            <img id="the_big_bongisCard" src="./marker/AR Tracking Card-JPG/the_big_bongis.jpg"></img>
-            <img id="walking_robotCard" src="./marker/AR Tracking Card-JPG/walking_robot.jpg"></img>
+            <img id="depresso_card" src="./assets/depresso_palworld_3d_free_model/depresso.png"></img>
+            <img id="direhowl_card" src="./assets/direhowl_palworld/direhowl.jpeg"></img>
+            <img id="dumud_card" src="./assets/dumud_palworld_free_3d_model/dumud.jpeg"></img>
+            <img id="grizzbolt_card" src="./assets/grizzbolt_palworld_3d_model/Grizzbolt.png"></img>
+            <img id="mau_card" src="./assets/mau_palworld_free_3d_model_no_tail_bell/mau.png"></img>
+            <img id="anubis_card" src="./assets/palworld_-_anubis/anubis.png"></img>
+            <img id="mossanda_card" src="./assets/palworld_mossanda/Mossanda.png"></img>
+            <img id="relaxaurus_card" src="./assets/relaxaurus_palworld_model_3d_free/relaxaurus.png"></img>
+            <img id="swee_card" src="./assets/swee_palworld_free_3d_model/swee.png"></img>
+            <img id="teafant_card" src="./assets/teafant_palworld_model_3d_free/Teafant.png"></img>
 
             <!-- 3D Models -->
-            <a-asset-item id="buddy-robModel" src="./assets/robots/buddy-rob/scene.gltf"></a-asset-item>
-            <a-asset-item id="gundam_f91Model" src="./assets/robots/gundam_f91/scene.gltf"></a-asset-item>
-            <a-asset-item id="ms_goufModel" src="./assets/robots/ms_gouf/scene.gltf"></a-asset-item>
-            <a-asset-item id="ms-09_domModel" src="./assets/robots/ms-09_dom/scene.gltf"></a-asset-item>
-            <a-asset-item id="robot_toyModel" src="./assets/robots/robot_toy/scene.gltf"></a-asset-item>
-            <a-asset-item id="robot-unicycleModel" src="./assets/robots/robot-unicycle/robot.gltf"></a-asset-item>
-            <a-asset-item id="robotredModel" src="./assets/robots/robotred/scene.gltf"></a-asset-item>
-            <a-asset-item id="robotyellowModel" src="./assets/robots/robotyellow/scene.gltf"></a-asset-item>
-            <a-asset-item id="the_big_bongisModel" src="./assets/robots/the_big_bongis/scene.gltf"></a-asset-item>
-            <a-asset-item id="walking_robotModel" src="./assets/robots/walking_robot/scene.gltf"></a-asset-item>
+            <a-asset-item id="depresso" src="./assets/depresso_palworld_3d_free_model/scene.gltf"></a-asset-item>
+            <a-asset-item id="direhowl" src="./assets/direhowl_palworld/scene.gltf"></a-asset-item>
+            <a-asset-item id="dumud" src="./assets/dumud_palworld_free_3d_model/scene.gltf"></a-asset-item>
+            <a-asset-item id="grizzbolt" src="./assets/grizzbolt_palworld_3d_model/scene.gltf"></a-asset-item>
+            <a-asset-item id="mau" src="./assets/mau_palworld_free_3d_model_no_tail_bell/scene.gltf"></a-asset-item>
+            <a-asset-item id="anubis" src="./assets/palworld_-_anubis/scene.gltf"></a-asset-item>
+            <a-asset-item id="mossanda" src="./assets/palworld_mossanda/scene.gltf"></a-asset-item>
+            <a-asset-item id="relaxaurus" src="./assets/relaxaurus_palworld_model_3d_free/scene.gltf"></a-asset-item>
+            <a-asset-item id="swee" src="./assets/swee_palworld_free_3d_model/scene.gltf"></a-asset-item>
+            <a-asset-item id="teafant" src="./assets/teafant_palworld_model_3d_free/scene.gltf"></a-asset-item>
         </a-assets>
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
         <a-entity mindar-image-target="targetIndex: 0">
-            <a-plane src="#buddy-robCard" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
+            <a-plane src="#depresso_card" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
                 <!-- animation-mixer diperlukan untuk menjalankan animasi pada model 3d (jika tersedia) -->
                 <a-gltf-model rotation="-45 -90 -90" position="0 -0.25 0.1" scale="0.075 0.075 0.075"
-                    src="#buddy-robModel" animation-mixer></a-gltf-model>
+                    src="#depresso" animation-mixer></a-gltf-model>
             </a-plane>
 
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 1">
-            <a-plane src="#gundam_f91Card" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
-                <a-gltf-model rotation="90 0 0" position="0 0 0" scale="0.0025 0.0025 0.0025" src="#gundam_f91Model"
+            <a-plane src="#direhowl_card" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
+                <a-gltf-model rotation="90 0 0" position="0 0 0" scale="0.0025 0.0025 0.0025" src="#direhowl"
                     animation-mixer></a-gltf-model>
             </a-plane>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 2">
-            <a-plane src="#ms_goufCard" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
-                <a-gltf-model rotation="90 0 0" position="0 0 0" scale="0.0025 0.0025 0.0025" src="#ms_goufModel"
+            <a-plane src="#dumud_card" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
+                <a-gltf-model rotation="90 0 0" position="0 0 0" scale="0.0025 0.0025 0.0025" src="#dumud"
                     animation-mixer></a-gltf-model>
             </a-plane>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 3">
-            <a-plane src="#ms-09_domCard" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
-                <a-gltf-model rotation="90 0 0" position="0 0 0" scale="0.0025 0.0025 0.0025" src="#ms-09_domModel"
+            <a-plane src="#grizzbolt_card" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
+                <a-gltf-model rotation="90 0 0" position="0 0 0" scale="0.0025 0.0025 0.0025" src="#grizzbolt"
                     animation-mixer></a-gltf-model>
             </a-plane>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 4">
-            <a-plane src="#robot_toyCard" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
-                <a-gltf-model rotation="90 0 0" position="0 0 0.25" scale="0.015 0.015 0.015" src="#robot_toyModel"
+            <a-plane src="#mau_card" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
+                <a-gltf-model rotation="90 0 0" position="0 0 0.25" scale="0.015 0.015 0.015" src="#mau"
                     animation-mixer></a-gltf-model>
             </a-plane>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 5">
-            <a-plane src="#robotredCard" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
-                <a-gltf-model rotation="90 0 0" position="0 0.1 0" scale="0.01 0.01 0.01" src="#robotredModel"
+            <a-plane src="#anubis_card" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
+                <a-gltf-model rotation="90 0 0" position="0 0.1 0" scale="0.01 0.01 0.01" src="#anubis"
                     animation-mixer></a-gltf-model>
             </a-plane>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 6">
-            <a-plane src="#robot-unicycleCard" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
+            <a-plane src="#mossanda_card" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
                 <!-- key 'clip' pada 'animation-mixer' menentukan animasi apa yang dijalankan, jika dikosongkan yang dipakai adalah default -->
                 <a-gltf-model rotation="-90 -90 -90" position="0 0 0" scale="0.075 0.075 0.075"
-                    src="#robot-unicycleModel" animation-mixer="clip: attackspinlonghands"></a-gltf-model>
+                    src="#mossanda" animation-mixer="clip: attackspinlonghands"></a-gltf-model>
             </a-plane>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 7">
-            <a-plane src="#robotyellowCard" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
-                <a-gltf-model rotation="90 0 0" position="0 0 0.5" scale="0.5 0.5 0.5" src="#robotyellowModel"
+            <a-plane src="#relaxaurus_card" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
+                <a-gltf-model rotation="90 0 0" position="0 0 0.5" scale="0.5 0.5 0.5" src="#relaxaurus"
                     animation-mixer></a-gltf-model>
             </a-plane>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 8">
-            <a-plane src="#the_big_bongisCard" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
-                <a-gltf-model rotation="90 0 0" position="0 0 0" scale="0.025 0.025 0.025" src="#the_big_bongisModel"
+            <a-plane src="#swee_card" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
+                <a-gltf-model rotation="90 0 0" position="0 0 0" scale="0.025 0.025 0.025" src="#swee"
                     animation-mixer></a-gltf-model>
             </a-plane>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 9">
-            <a-plane src="#walking_robotCard" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
-                <a-gltf-model rotation="90 0 0" position="0 0 0.2" scale="0.025 0.025 0.025" src="#walking_robotModel"
+            <a-plane src="#teafant_card" position="0 0 0" height="0.552" width="1" rotation="0 0 0">
+                <a-gltf-model rotation="90 0 0" position="0 0 0.2" scale="0.025 0.025 0.025" src="#teafant"
                     animation-mixer></a-gltf-model>
             </a-plane>
         </a-entity>
